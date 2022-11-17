@@ -11,8 +11,8 @@
 
 <style>
   .header {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 2.75rem;
   }
 </style>

@@ -3,16 +3,16 @@
 </template>
 
 <script>
-function joke() {
-  console.log("Joke");
-}
+  function joke() {
+    console.log("Joke");
+  }
 
-export default {
-  props: ["text"],
-  methods: {
-    joke: joke,
-  },
-};
+  export default {
+    props: ["text"],
+    methods: {
+      joke: joke,
+    },
+  };
 </script>
 
 <style>
@@ -20,8 +20,18 @@ export default {
   margin: 0 auto;
   width: 200px;
   height: 50px;
-  background-color: blue;
+  background-color: cyan;
   font-size: 1rem;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.jokeButton:hover {
+  background-color: blue;
+  cursor: pointer;
 }
 </style>

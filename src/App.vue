@@ -21,10 +21,10 @@ export default {
 <style>
 #appContainer {
   margin: 0 auto;
-  width: 60%;
-  height: 350px;
+  width: 40%;
+  padding-bottom: 2rem;
   background-color: #abdbe3;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
